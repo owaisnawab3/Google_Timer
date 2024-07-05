@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font_Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fav-Icon! -->
+    <link rel="shortcut icon" href="./Google-Timer.png" type="image/x-icon">
+
+    <title>Google Timer</title>
+</head>
+<body>
+     <div class='text'>
+       <h1>G<span>o</span><span class='yellow'>o</span>g<span class='green'>l</span><span>e </span>T<span>i</span><span className='yellow'>m</span>e<span className='green'>r</span><span></span></h1>
+     </div>
+      
+      <div class='timer'>
+         <div class='timer-header'>
+            <div id="Timer" class='Timer' onclick="toogle1()">
+            <i class="fa-solid hour_glass fa-hourglass"></i>
+               <h4>Timer</h4>
+            </div>
+            <div id="stopwatch" onclick="toogle()" class='Stop-watch'>
+            <i class="fa-solid stop_watch fa-stopwatch"></i>
+              <h4>StopWatch</h4>
+            </div>
+         </div>
+         
+         <form id="foam" action="#">
+            <input type="number" id='hour' placeholder='Hours' autoComplete={off} value="" />
+            <input type="number" id='minute' placeholder='Minutes' autoComplete={off} value="" />
+            <input type="number" id='second' placeholder='Seconds' autoComplete={off} value="" />
+        </form>
+
+         <div id="stoptimer" class='stop_timer'>
+            <h1 id='Stop-Watch'>0<span>s</span> 00</h1>
+         </div>
+
+        <div class='timer-footer'>
+           <div class='timer-btn'>
+            <button id="start" class='start-btn'>Start</button>
+            <button id="reset" class='reset-btn'>Reset</button>
+           </div>
+           <div class='timer-icon'>
+            <i class="fa-solid volume fa-volume-high"></i>
+            <i class="fa-solid .full_screen fa-expand"></i>
+           </div>
+        </div>
+      </div>
+
+      <script src="app.js"></script>
+</body>
+</html>

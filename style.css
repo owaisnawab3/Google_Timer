@@ -1,0 +1,205 @@
+  /* //------------------GOOGLE_FONT//-------------------// */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+  }
+  
+  /* //========================//GOOGLE_TEXT//=======================// */
+  
+  .text{
+      text-align: center;
+      color: #4385F5;
+  }
+  
+  span{
+      color: #EB4235;
+  }
+  
+  .yellow{
+  
+      color: #F9BC04;
+  }
+  
+  .green{
+      color: #34A853;
+  }
+  
+  /* //=======================//TIMER_BODY//========================// */
+  
+  .timer{
+      width: 65%;
+      /* height: 300px; */
+      height: auto;
+      border: 1px solid #DADCE0;
+      border-radius: 10px;
+      margin: auto;
+  }
+  
+  /* //=======================//TIMER_HEADER//========================// */
+  
+  .timer-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20%;
+      border-bottom: 1px solid #EBEBEB;
+  }
+  
+  .Timer{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+  }
+  
+  .hour_glass{
+      font-size: 16px;
+      color: grey;
+  }
+  
+  .Timer h4{
+      font-size: 16px;
+      font-weight: 400;
+      color: grey;
+      text-transform: uppercase;
+  }
+  
+  .Stop-watch h4{
+      font-size: 16px;
+      font-weight: 400;
+      color: grey;
+      text-transform: uppercase;
+  }
+  
+  .Stop-watch{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+  }
+  
+  .stop_watch{
+      font-size: 16px;
+      color: grey;
+  }
+  
+  /* //=======================//_MAIN_TIMER_//========================// */
+  
+  .main_timer h1{
+      padding: 10px 30px;
+      font-size: 50px;
+      font-weight: 500;
+      display: none;
+  }
+  
+  .stop_timer h1{
+      padding: 10px 30px;
+      font-size: 50px;
+      font-weight: 500;
+      display: none;
+  }
+  
+  .stop_timer span{
+      font-size: 30px;
+      font-weight: 400;
+      color: #000;
+  }
+
+  form{
+    height: 35vh;
+    width: 100%;
+    background: #fff;
+    line-height: 35vh;
+    text-align: start;
+    padding-left: 26px;
+  }
+
+  form input{
+    width: 130px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(235, 235, 235);
+    color: #000;
+    font-size: 60px;
+    background: transparent;
+  }
+
+  form input::placeholder{
+    font-size: 20px;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.active{
+    display: block;
+}
+
+  /* //=======================//TIMER_FOOTER//========================// */
+  
+  .timer-footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 20px;
+      border-top: 1px solid #EBEBEB
+  }
+  
+  /* .timer-btn{
+      border-top: 1px solid #EBEBEB;
+  } */
+  
+  .start-btn{
+      background:#1B66C9;
+      border: none;
+      padding: 8px 16px;
+      color: #fff;
+      text-transform: uppercase;
+      border-radius: 3px;
+      font-size: 12px;
+      font-weight: 550;
+      margin-right: 14px;
+      cursor: pointer;
+  }
+  
+  .start-btn:hover{
+      background:#0f70ed;
+  }
+  
+  .reset-btn{
+      background:#fff;
+      border: 1px solid rgb(204, 203, 203);
+      padding: 8px 16px;
+      color: #1B66C9;
+      text-transform: uppercase;
+      border-radius: 3px;
+      font-size: 12px;
+      font-weight: 550;
+      cursor: pointer;
+  }
+  
+  .reset-btn:hover{
+      background: rgb(241, 239, 239);
+  }
+  
+  .full_screen{
+      padding-right: 10px;
+      font-size: 16px;
+      color: grey;
+      cursor: pointer;
+  }
+  
+  .volume{
+      padding-right: 25px;
+      font-size: 16px;
+      color: grey;
+      cursor: pointer;
+  }
